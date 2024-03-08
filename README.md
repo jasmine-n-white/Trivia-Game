@@ -1,1 +1,1 @@
-# Trivia-Game
+# A Trivia Game built with Javascript
