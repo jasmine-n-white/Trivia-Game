@@ -94,6 +94,18 @@ while (playAgain) {
             option4 = "Four";
             answer = 1;
         }
+        console.log(question);
+        console.log(option1);
+        console.log(option2);
+        console.log(option3);
+        console.log(option4);
+        let userAnswer = Number(prompt('Enter the number of your answer: '));
+
+        if (userAnswer === answer) {
+            console.log("Great job!");
+            score++;
+        }
 
     }
+  
 }
