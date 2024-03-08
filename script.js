@@ -104,8 +104,20 @@ while (playAgain) {
         if (userAnswer === answer) {
             console.log("Great job!");
             score++;
+        } else {
+            console.log("Incorrect! The correct answer is: " + answer);
         }
 
     }
-  
+
+    console.log(`Great job! Your score is ${score} out of 10`);
+    playAgain = prompt("Would you like to play again (yes/no)?");
+    if (playAgain == "yes") {
+        playAgain;
+    } else if (playAgain == "no") {
+        playAgain = false;
+        console.log("Thank you for playing!");
+        break;
+    }
+
 }
