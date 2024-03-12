@@ -2,8 +2,11 @@ const prompt = require('prompt-sync') ({sigint: true});
 
 let playAgain = true;
 
-console.log("Welcome to the Trivia Game!");
-
+console.log(" __  __           _        _____     _       _       _ ");
+console.log("|  \\/  |_   _ ___(_) ___  |_   _| __(_)_   _(_) __ _| |");
+console.log("| |\\/| | | | / __| |/ __|   | || '__| \\ \\ / / |/ _` | |");
+console.log("| |  | | |_| \\__ \\ | (__    | || |  | |\\ V /| | (_| |_|");
+console.log("|_|  |_|\\__,_|___/_|\\___|   |_||_|  |_| \\_/ |_|\\__,_(_)");
 while (playAgain) {
     let score = 0;
 
