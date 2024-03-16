@@ -105,10 +105,10 @@ while (playAgain) {
         let userAnswer = Number(prompt('Enter the number of your answer: '));
 
         if (userAnswer === answer) {
-            console.log("Great job!");
+            console.log("\u001b[32m Great job! \u001b[37m");
             score++;
         } else {
-            console.log("Incorrect! The correct answer is: " + answer);
+            console.log("\u001b[31m Incorrect! \u001b[37m The correct answer is: " + answer);
         }
 
     }
