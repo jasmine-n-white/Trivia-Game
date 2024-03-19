@@ -22,7 +22,7 @@ console.log("                   - After each question, you will receive feedback
 console.log("                      whether your answer was correct or incorrect");
 console.log("                   - At the end of the quiz, you will see your final score");
 console.log("\n");
-console.log("                                HAVE FUN AND GOOD LUCK!!");
+console.log("                              HAVE FUN AND GOOD LUCK!!");
 console.log("======================================================================================");
 
 while (playAgain) {
